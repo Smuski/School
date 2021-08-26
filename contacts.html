@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Art School | Contacts</title>
+<meta charset="utf-8">
+<link id="favicon" rel="shortcut icon" href=images/favicon.ico type=""/>
+<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script>
+$(document)
+    .ready(function () {
+    $('.slider')
+        ._TMS({
+        show: 0,
+        pauseOnHover: true,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'fade',
+        pagination: true,
+        pagNums: false,
+        slideshow: 7000,
+        numStatus: false,
+        banners: false,
+        waitBannerAnimation: false,
+        progressBar: false
+    })
+});
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="main">
+  <!--==============================header=================================-->
+  <header>
+    <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+    <nav>
+      <div id="slide">
+        <div class="slider">
+          <ul class="items">
+            <li><img src="images/slider-1.jpg" alt=""></li>
+            <li><img src="images/slider-2.jpg" alt=""></li>
+            <li><img src="images/slider-3.jpg" alt=""></li>
+          </ul>
+        </div>
+        <a href="#" class="prev"></a><a href="#" class="next"></a> </div>
+      <ul class="menu">
+        <li><a href="index.html" class="clr-1">Home</a></li>
+        <li><a href="about.html" class="clr-2">About</a></li>
+        <li><a href="schedule.html" class="clr-3">Schedule</a></li>
+        <li><a href="gallery.html" class="clr-4">Gallery</a></li>
+        <li class="current"><a href="contacts.html" class="clr-5">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--==============================content================================-->
+  <section id="content">
+    <div class="container_12">
+      <div class="grid_4 bot-1">
+        <h2 class="top-6">Contact Us</h2>
+        <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14374.763589287695!2d85.00507467272243!3d25.74773363828741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed526a779bc501%3A0x85f8adad57214439!2sDighwara%2C%20Bihar%20841207!5e0!3m2!1sen!2sin!4v1629943669141!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <dl>
+          <dt>Nakti devi road, <br>
+            Dighwara,bihar</dt>
+          <dd><span>Mobile: </span>8789323619</dd>
+          <dd><span>E-mail: </span><a href="#" class="link">kumarimus8789@gmail.com</a></dd>
+        </dl>
+      </div>
+      <div class="grid_8">
+        <div class="block-1 top-5">
+          <div class="block-1-shadow">
+            <h2 class="clr-6">Contact Form</h2>
+            <form id="form" method="post" action="#">
+              <fieldset>
+                <label><strong>Name:</strong>
+                  <input type="text" value="">
+                  <strong class="clear"></strong></label>
+                <label><strong>Email:</strong>
+                  <input type="text" value="">
+                  <strong class="clear"></strong></label>
+                <label><strong>Phone:</strong>
+                  <input type="text" value="">
+                  <strong class="clear"></strong></label>
+                <label><strong>Message:</strong>
+                  <textarea></textarea>
+                  <strong class="clear"></strong></label>
+                <strong class="clear"></strong>
+                <div class="btns pad-2"><a href="#" class="link-2">Clear</a><a href="#" class="link-2">Send</a></div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <!--==============================footer=================================-->
+        <footer>
+          <p>© 2021 Art School</p>
+          <p>Website Designed by ER. muskan kumari</p>
+        </footer>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </section>
+</div>
+</body>
+</html>
